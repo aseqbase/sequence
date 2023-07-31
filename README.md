@@ -1,4 +1,4 @@
-# Single page aseqbase website
+# New Sequence aseqbase website
 To create a new subdomain, with all accessibility and equipment, for an aseqbase website...
 ## Dependencies
 - <a href="http://github.com//aseqbase/aseqbase">aseqbase/aseqbase</a>
