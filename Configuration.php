@@ -6,11 +6,7 @@ class Configuration extends ConfigurationBase {
     //public $DisplayStartupError = 1;
     //public $ReportError = E_ALL;
     //public $DataBaseError = 1;
-
-    //public $AllowCache = false;
-    //public $AllowReduceSize = true;
-    //public $AllowEncryptNames = true;
-
+    
     ///**
     // * The status of all server response: 400, 404, 500, etc.
     // * @var mixed
