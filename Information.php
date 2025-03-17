@@ -18,19 +18,19 @@ class Information extends InformationBase{
 	public $KeyWords = array("MiMFa aseqbase Framework", "MiMFa", "aseqbase", "Web Development", "Development", "Web Framework", "Website", "Framework");
 
 	public $MainMenus = array(
-		array("Name" =>"HOME","Path"=>"/home","Image" =>"/asset/symbol/home.png","Attributes"=> "class='menu-link'"),
-		array("Name" =>"GIT","Path"=>"http://github.com/mimfa/aseqbase","Image" =>"/asset/symbol/market.png","Attributes"=> "class='menu-link'"),
-		array("Name" =>"FORUM","Path"=>"https://github.com/aseqbase/aseqbase/issues","Image" =>"/asset/symbol/chat.png","Attributes"=> "class='menu-link'"),
-		array("Name" =>"PRODUCTS","Path"=>"http://github.com/mimfa","Image" =>"/asset/symbol/product.png", "Attributes"=>"class='menu-link'"),
+		array("Name" =>"HOME","Path"=>"/home","Image" =>"home","Attributes"=> "class='menu-link'"),
+		array("Name" =>"GIT","Path"=>"http://github.com/mimfa/aseqbase","Image" =>"shopping-bag","Attributes"=> "class='menu-link'"),
+		array("Name" =>"FORUM","Path"=>"https://github.com/aseqbase/aseqbase/issues","Image" =>"comment","Attributes"=> "class='menu-link'"),
+		array("Name" =>"PRODUCTS","Path"=>"http://github.com/mimfa","Image" =>"clone", "Attributes"=>"class='menu-link'"),
 		array("Name" =>"ABOUT","Path"=>"/about","Image" =>"","Attributes"=> "class='menu-link'")
 		);
 
 	public $Shortcuts = array(
-		array("Name" =>"Menu","Path"=>"","Image" =>"/asset/symbol/menu.png", "Attributes"=>"onclick='viewSideMenu()'"),
-		array("Name" =>"Market","Path"=>"#embed","Image" =>"/asset/symbol/market.png","Attributes"=> "class='embed-link' onclick='viewEmbed(\"https://github.com/aseqbase/aseqbase\",\"fade\"); viewSideMenu(false);'"),
-		array("Name" =>"Home","Path"=>"#internal","Image" =>"/asset/symbol/home.png","Attributes"=> "class='internal-link' onclick='viewInternal(\"home\",\"fade\"); viewSideMenu(false);'"),
-		array("Name" =>"Products","Path"=>"#internal","Image" =>"/asset/symbol/product.png", "Attributes"=>"class='internal-link' onclick='viewInternal(\"https://github.com/mimfa\",\"fade\"); viewSideMenu(false);'"),
-		array("Name" =>"Chat","Path"=>"#internal","Image" =>"/asset/symbol/chat.png","Attributes"=> "class='internal-link' onclick='viewInternal(\"https://github.com/aseqbase/aseqbase/issues\",\"fade\"); viewSideMenu(false);'")
+		array("Name" =>"Menu","Path"=>"","Image" =>"bars", "Attributes"=>"onclick='viewSideMenu()'"),
+		array("Name" =>"Market","Path"=>"#embed","Image" =>"shopping-bag","Attributes"=> "class='embed-link' onclick='viewEmbed(\"https://github.com/aseqbase/aseqbase\",\"fade\"); viewSideMenu(false);'"),
+		array("Name" =>"Home","Path"=>"#internal","Image" =>"home","Attributes"=> "class='internal-link' onclick='viewInternal(\"home\",\"fade\"); viewSideMenu(false);'"),
+		array("Name" =>"Products","Path"=>"#internal","Image" =>"clone", "Attributes"=>"class='internal-link' onclick='viewInternal(\"https://github.com/mimfa\",\"fade\"); viewSideMenu(false);'"),
+		array("Name" =>"Chat","Path"=>"#internal","Image" =>"comment","Attributes"=> "class='internal-link' onclick='viewInternal(\"https://github.com/aseqbase/aseqbase/issues\",\"fade\"); viewSideMenu(false);'")
 		);
 
 	public $Services = array(
@@ -44,7 +44,7 @@ class Information extends InformationBase{
 		array("Name" =>"Telegram","Path"=>"https://t.me/aseqbase","Icon"=> "fa fa-telegram"),
 		array("Name" =>"Email","Path"=>"mailto:aseqbase@mimfa.net","Icon"=> "fa fa-envelope"),
 		array("Name" =>"Github","Path"=>"http://github.com/mimfa","Icon"=> "fa fa-github"),
-		array("Name" =>"Forum","Path"=>"/chat","Image" =>"/asset/symbol/chat.png","Icon"=> "fa fa-comments")
+		array("Name" =>"Forum","Path"=>"/chat","Image" =>"comment","Icon"=> "fa fa-comments")
 	);
 }
 ?>
