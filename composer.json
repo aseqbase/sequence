@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
     "name": "aseqbase/sequence",
     "description": "To create a new subdomain, with all accessibility and equipment, for an aseqbase website...",
+=======
+    "name": "aseqbase/lms",
+    "description": "To create a Learning Management System, with all accessibility and equipment, for an aseqbase website...",
+>>>>>>> 255f6ecab93e3899dd5fdefb9a70aa08f92df099
     "type": "project",
     "license": "GPL-3.0-only",
     "authors": [
