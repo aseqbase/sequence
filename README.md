@@ -4,20 +4,9 @@ To create a new subdomain, with all accessibility and equipment, for an aseqbase
 * <a href="http://github.com//aseqbase/aseqbase">aseqbase/aseqbase</a>
 ## Installations
 1. Install all dependencies
-  ### To make the Main Domain of aseqbase website
-  2. Open a terminal in the home directory (public_html) of the website, then install the project by:
+2. Open a terminal in the home directory (public_html) of the website, then install the project by:
 	
- 	> composer create-project aseqbase/sequence
-  or
-	
- 	> composer require aseqbase/sequence
-  ### To make the Sub Domain of aseqbase website
-  2. Open a terminal in your subdomain directory (public_html/[my-subdomain-name]/), then install the framework by:
-	
- 	> composer create-project aseqbase/sequence
-  or
-	
- 	> composer require aseqbase/sequence
+ 	> composer create-project aseqbase/sequence my-subdomain-name
 3. Create an opitonal file name `global.php` on the root directory with the bellow codes:
   ```
   <?php
