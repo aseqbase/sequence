@@ -1,6 +1,8 @@
 # A New Sequence (Project)
 > aseqbase/sequence
-To create a new subdomain, with all accessibility and equipment, for an aseqbase website...
+
+The task at hand involves the establishment of a novel subdomain, fully equipped and configured for seamless accessibility, as an extension to an existing aseqbase website. This entails not only the creation of the subdomain itself, but also ensuring that all necessary infrastructure, software, and hardware are in place to support its intended function. Furthermore, meticulous attention must be paid to accessibility considerations, guaranteeing that the new subdomain is usable by individuals with diverse needs and abilities. The ultimate goal is to seamlessly integrate this new subdomain into the existing aseqbase website ecosystem, providing a fully functional and readily accessible platform for its designated purpose.
+
 ## Dependencies
 * <a href="http://github.com//aseqbase/aseqbase">aseqbase/aseqbase</a>
 <h2>Managements</h2>
