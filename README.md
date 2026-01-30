@@ -25,7 +25,7 @@ The task at hand involves the establishment of a novel subdomain, fully equipped
 		Destination Directory [D:\MyWebsite\]: D:\MyWebsite\sequence\
 		```
   4. Follow the steps to finish the installation of sources, database, etc.
-  5. [optional] On the local server, create an optional file named `global.php` in the `sequence` directory  to change your-parent-directory-name (from the `.aseq`) using:
+  5. [optional] On the local server, create an optional file named `global.php` in the `sequence` directory  to change your-parent-directory-name (from the `aseq`) using:
 		``` bash
 		> composer sequence:create global --aseq "sequence" --base "your-parent-directory-name" -f
 		```
@@ -34,7 +34,7 @@ The task at hand involves the establishment of a novel subdomain, fully equipped
 		> cd vendor/aseqbase/sequence
 		vendor/aseqbase/sequence> composer dev:create global --aseq "sequence" --base "your-parent-directory-name" -f
 		```
-		**Note**: Do not forget to replace "your-parent-directory-name" with your item (default `.aseq`). 
+		**Note**: Do not forget to replace "your-parent-directory-name" with your item (default `aseq`). 
   6. Enjoy...
 
 <h3>Using</h3>
